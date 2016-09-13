@@ -2,12 +2,11 @@
 var numberofCharactersused = prompt("What do you want to tweet?");
 
     if (numberofCharactersused.length < 140) {
-    
+    console.log(140-numberofCharactersused.length)
     alert("Your tweet was sent.")
     }
     else {
-  alert("You have exceeded the character limit of 140.")   
-  console.log(140-numberofCharactersused.length);  
+  alert("You have exceeded the character limit of 140.");   
     }   
 
 </script>
