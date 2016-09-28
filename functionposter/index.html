@@ -1,0 +1,26 @@
+<script>
+
+    //I=P * R * T
+    //declaration
+    
+    
+    function I(P, R, T) {
+        //localvariable
+        
+        var interest = P * R * T;
+        alert("The interest is $" + interest + "." );
+        
+        };
+    
+    //globalvariable
+  
+    var P = prompt("How much money did you loan? (Please don't include a comma.)")
+    var R = prompt("What is your interest rate in decimal form? (Please include a zero before the decimal point.)")
+    var T = prompt("For how many months are you paying your interest?");
+    
+    
+    //call
+    I(P, R, T);
+
+
+</script>
