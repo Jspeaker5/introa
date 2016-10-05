@@ -1,0 +1,36 @@
+<html>
+<head></head>
+<body>
+    
+<canvas id="myCanvas" width="750" height="750">/canvas>
+<script>    
+ 
+var c = document.getElementById("myCanvas");
+var ctx =c.getContext("2d");
+ 
+//Red Rectangle
+ctx.beginPath();
+ctx.fillStyle="#BE4C2A"
+ctx.fillRect(0,0,750,750);
+ctx.stroke();
+    
+//Grey Rectangle   
+ctx.beginPath();
+ctx.fillStyle="#81918E";
+ctx.fillRect(90,300,50,450);
+ctx.stroke();
+
+//Turquoise Rectangle
+ctx.beginPath();
+ctx.fillStyle="#408585";
+ctx.fillRect(300,0,100,425);
+ctx.stroke();
+
+//Light Blue Rectangle
+ctx.beginPath();
+ctx.fillStyle="#7B8B88"
+ctx.fillRect(550,350,100,400);
+
+</script>
+</body>
+</html>
